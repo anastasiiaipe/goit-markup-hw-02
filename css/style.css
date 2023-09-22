@@ -10,7 +10,6 @@ ul,
 ol {
     list-style: none;
     margin: 0;
-    padding-left: 0;
 }
 
 a {
@@ -20,23 +19,22 @@ a {
 
 /*----------------header-------------*/
 .header {
-    flex-shrink: 0;
-    border-bottom: #E7E9FC;
 }
 
 .header-nav {}
 
 .logo-header {
-    color: #2E2F42;
-    font-family: Raleway;
+    color: #4d5ae5;
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
 .accent-web-header {
-    color: #4D5AE5;
+    color: #2e2f42;
 }
 
 .header-nav-list {}
@@ -53,7 +51,9 @@ a {
 .link-nav:focus {
     color: #404BBF;
 }
-.adress {}
+.adress {
+    font-style: normal;
+}
 
 .header-adress-list {}
 
@@ -74,9 +74,6 @@ a {
 /*---------section-1---------*/
 .hero {
     background-color: #2E2F42;
-    width: 1440px;
-    height: 600px;
-    flex-shrink: 0;
 }
 
 .hero-title {
@@ -84,10 +81,7 @@ a {
     text-align: center;
     font-size: 56px;
     line-height: 1.07;
-    padding-top: 188px;
-    padding-bottom: 48px;
-    padding-left: 472px;
-    padding-right: 472px;
+    letter-spacing: 0.02em;
 }
 
 .hero-btn {
@@ -95,14 +89,7 @@ a {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    display: inline-flex;
-    padding: 16px 32px;
-    align-items: flex-start;
-    gap: 10px;
-    border-radius: 4px;
     background: #4D5AE5;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    margin-left: 636px;
     cursor: pointer;
 }
 
@@ -124,6 +111,7 @@ a {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 
 .about-list-text {
@@ -140,6 +128,7 @@ a {
     text-align: center;
     font-size: 36px;
     line-height: 1.11;
+    letter-spacing: 0.02em;
     text-transform: capitalize;
 }
 
@@ -156,6 +145,7 @@ a {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.20;
+    letter-spacing: 0.02em;
 }
 
 .team-list-text {
@@ -171,6 +161,7 @@ a {
     font-size: 36px;
     font-style: normal;
     line-height: 1.11;
+    letter-spacing: 0.02em;
     text-transform: capitalize;
 }
 
@@ -185,6 +176,7 @@ a {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 
 .portf-list-text {
@@ -194,22 +186,20 @@ a {
 /*---------footer---------*/
 .footer {
     background-color: #2E2F42;
-    width: 1440px;
-        height: 312px;
 }
 
 .logo-footer {
-    color: #F4F4FD;
-    font-family: Raleway;
+    color: #4d5ae5;
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em; 
     text-transform: uppercase;
 }
 
 .accent-web-footer {
-    color: #4D5AE5;
+    color: #F4F4FD;
 }
 
 .footer-text {
